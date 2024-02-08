@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../js/1-gallery.js"],"sourcesContent":["'use strict'\nconsole.log('Gallery');"],"names":[],"mappings":"oCACA,QAAQ,IAAI,SAAS"}
