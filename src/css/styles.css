@@ -5,3 +5,24 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./1-gallery.css');
+@import url('2-form.css');
+
+.index_nav{
+  display: flex;
+  flex-direction: column;
+}
+.index_items {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.index_items li a {
+  transition: font-size 500ms ease-in-out;
+}
+.index_items li a:hover {
+color:green;
+font-size: 18px;
+}

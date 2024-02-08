@@ -1,0 +1,84 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+.label-name {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .input-message {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    outline-offset: 4px;
+    outline-color: transparent;
+  }
+  .input-message:hover {
+    border: 1px solid #000;
+  }
+  .input-message:active {
+    border: 1px solid #808080;
+  }
+  
+  .textarea-message {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 80px;
+    outline-offset: 4px;
+    outline-color: transparent;
+  }
+  .textarea-message:hover {
+    border: 1px solid #000;
+  }
+  .textarea-message:active {
+    border: 1px solid #808080;
+  }
+  .btn {
+    background: #4e75ff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-top: 8px;
+  }
+  
+  .btn:hover {
+    background: #6c8cff;
+  }
+  
+.title_form{
+  font-size: 16px;
+  margin-bottom: 20px;
+ margin-top: 15px;
+}
+
+.form_link {
+transition: font-size 500ms ease-in-out;
+}
+.form_link:hover {
+  font-size: 18px;
+  color: green;
+}

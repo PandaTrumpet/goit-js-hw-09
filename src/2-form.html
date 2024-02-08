@@ -4,13 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/basicLightbox/5.0.0/basicLightbox.min.css" integrity="sha512-C+KPK958JmUdU8B9SVr8YpEZtQ1T1XrFX/OLvE/lt336DFWXFHL5Y9/tUewMEU+Uy3dUAS363XXLdBine0WDyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link rel="stylesheet" href="./css/styles.css">
     <title>Form</title>
   </head>
   <body>
     <section>
-      <a href="./index.html">Go to home</a>
-  <h1>Welcome page 3</h1>
+      <a class="form_link" href="./index.html">Go to home</a>
+  <h1 class="title_form">Welcome to form page</h1>
+
+
+    </section>
+    <section>
+      <form class="feedback-form" autocomplete="off">
+        <label class="label-name">
+          Email
+          <input class="input-message" type="email" name="email" autofocus />
+        </label>
+        <label class="label-name">
+          Message
+          <textarea  class="textarea-message" name="message" rows="8"></textarea>
+        </label>
+        
+        <button class="btn" type="submit">Submit</button>
+      </form>
     </section>
     <script type="module" defer src="./js/2-form.js"></script>
   </body>
